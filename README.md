@@ -130,6 +130,9 @@ flowchart TD
 
 ## Hardware Pin Mapping
 
+### IoT Connection Diagram
+![AI Traffic Signal - IoT Connection Diagram](assets/iot_connection_diagram.jpg)
+
 The ESP32 controls 12 LEDs (4 directions × 3 colors):
 
 | Direction | Red LED | Yellow LED | Green LED |
@@ -155,6 +158,8 @@ flowchart LR
 
 ```text
 AI_Traffic_Signal_Control_IoT/
+├── assets/
+│   └── iot_connection_diagram.jpg # Hardware wiring and circuit diagram
 ├── app.py                      # Main desktop application & GUI
 ├── detector.py                 # Normal YOLO vehicle detector
 ├── emergency_detector.py       # Emergency vehicle detector (YOLO-World)
