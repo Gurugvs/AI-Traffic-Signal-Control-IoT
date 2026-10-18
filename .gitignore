@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Model weights (ViT-B-32.pt is ~354MB which exceeds GitHub's 100MB limit; YOLO models auto-download)
+weights/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
